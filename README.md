@@ -7,6 +7,7 @@ The data was scraped from www.jw.org. The encoding is utf-8.
 
 The easiest way to use it is to load the pickle file in python:
 
+    import pickle
 
     fh = open('dictionary_of_language_names.pickle', 'rb')  
     dic = pickle.load(fh)  
