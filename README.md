@@ -14,7 +14,7 @@ dic = pickle.load(fh)
 
 dic['de']['fr']
 
->>> u'Franz\xf6sisch'
+Output:  u'Franz\xf6sisch'
 
 
 
