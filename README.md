@@ -9,7 +9,9 @@ The easiest way to use it is to load the pickle file in python:
 
 
 fh = open('dictionary_of_language_names.pickle', 'rb')
+
 dic = pickle.load(fh)
+
 dic['de']['fr']
 
 >>> u'Franz\xf6sisch'
