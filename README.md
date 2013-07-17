@@ -8,14 +8,10 @@ The data was scraped from www.jw.org. The encoding is utf-8.
 The easiest way to use it is to load the pickle file in python:
 
 
-fh = open('dictionary_of_language_names.pickle', 'rb')
-
-dic = pickle.load(fh)
-
-dic['de']['fr']
-
-Output:  u'Franz\xf6sisch'
-
+    fh = open('dictionary_of_language_names.pickle', 'rb')  
+    dic = pickle.load(fh)  
+    dic['de']['fr']  
+    Output:  u'Franz\xf6sisch'
 
 
 Keywords: NLP, Natural Language Processing, Machine Translation, glossary, language list, python, data, dictionary, multi-language dictionary, English, languages, rare languages
